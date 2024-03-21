@@ -9,8 +9,8 @@ jobs:
       - name: Invite on label
         uses: vj-abigo/invite-on-label@v1.4
         with:
-          organization: GitHub-Org
-          label: invite me to the organization
+          organization: UV-LIS-Coatza
+          label: Invitación a la comunidad de LIS UV Coatza
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           comment: 'Bienvenido a la comunidad de la licenciatura en ingeniería de software de la UV campus Coatzacoalcos'
         env:
